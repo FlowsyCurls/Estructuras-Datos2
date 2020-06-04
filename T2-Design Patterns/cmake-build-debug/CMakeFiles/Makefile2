@@ -44,16 +44,16 @@ RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns
+CMAKE_SOURCE_DIR = "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Datos_2___2_0.dir/all
+all: CMakeFiles/T2_Design_Patterns.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Datos_2___2_0.dir/clean
+clean: CMakeFiles/T2_Design_Patterns.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Datos_2___2_0.dir
+# Target rules for target CMakeFiles/T2_Design_Patterns.dir
 
 # All Build rule for target.
-CMakeFiles/Datos_2___2_0.dir/all:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/depend
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Datos_2___2_0"
-.PHONY : CMakeFiles/Datos_2___2_0.dir/all
+CMakeFiles/T2_Design_Patterns.dir/all:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/depend
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target T2_Design_Patterns"
+.PHONY : CMakeFiles/T2_Design_Patterns.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Datos_2___2_0.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Datos_2___2_0.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Datos_2___2_0.dir/rule
+CMakeFiles/T2_Design_Patterns.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles" 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/T2_Design_Patterns.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/T2_Design_Patterns.dir/rule
 
 # Convenience name for target.
-Datos_2___2_0: CMakeFiles/Datos_2___2_0.dir/rule
+T2_Design_Patterns: CMakeFiles/T2_Design_Patterns.dir/rule
 
-.PHONY : Datos_2___2_0
+.PHONY : T2_Design_Patterns
 
 # clean rule for target.
-CMakeFiles/Datos_2___2_0.dir/clean:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/clean
-.PHONY : CMakeFiles/Datos_2___2_0.dir/clean
+CMakeFiles/T2_Design_Patterns.dir/clean:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/clean
+.PHONY : CMakeFiles/T2_Design_Patterns.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

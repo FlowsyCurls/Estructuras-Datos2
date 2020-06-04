@@ -1,15 +1,18 @@
-cmake_minimum_required(VERSION 3.15)
-project(Datos_2___2_0)
+cmake_minimum_required(VERSION 3.16)
+project(T2_Design_Patterns)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_FLAGS -pthread)
 
-add_executable( Datos_2___2_0 mainVSPtr.cpp
-#        Datos_2___2_0 mainAdapter.cpp
+add_executable(T2_Design_Patterns main.cpp
+        "Adapter Pattern/Adapter"
+        "Adapter Pattern/Blender"
+        "Adapter Pattern/CRSocketInterface"
+        "Adapter Pattern/EuropeanSocketInterface"
+        "Adapter Pattern/Socket"
+
+        "Observer Pattern/Bookshop"
+        "Observer Pattern/Observer"
+        "Observer Pattern/Product"
+        "Observer Pattern/Subject"
+
         )
-
-find_package(Threads REQUIRED)
-target_link_libraries( Datos_2___2_0 Threads::Threads)
-
-
-

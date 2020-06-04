@@ -2,12 +2,11 @@
 #include "Adapter Pattern/Adapter.h"
 #include "Adapter Pattern/Blender.h"
 
-
 using namespace std;
 int main() {
-    Socket* socket = new Socket;
-    Adapter* adapter = new Adapter;
-    Blender* blender = new Blender;
+    auto* socket = new Socket;
+    auto* adapter = new Adapter;
+    auto* blender = new Blender;
 
     /* Pluging in. */
     adapter->plugIn(socket);

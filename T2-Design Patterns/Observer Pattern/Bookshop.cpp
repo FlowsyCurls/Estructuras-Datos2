@@ -1,22 +1,21 @@
-//
-// Created by aldo on 28/3/20.
-//
-#include "libreria.h++"
-void libreria::Attach(Observer *obs) {
+#include "Bookshop.h++"
+
+void Bookshop::Attach(Observer *obs) {
     observers.push_back(obs);
 }
-void libreria::Detach(Observer *obs) {
+void Bookshop::Detach(Observer *obs) {
     for(int i=0;i<observers.size();i++){
         if(obs==observers[i])
             observers.erase(observers.begin()+i);
     }
 }
-void libreria::notify() {
+void Bookshop::notify() {
     for(Observer *observer : observers){
         observer->update(price);
     }
 }
-void libreria::setState(int price) {
+void Bookshop::setState(int price) {
     this->price=price;
     notify();
 }
+

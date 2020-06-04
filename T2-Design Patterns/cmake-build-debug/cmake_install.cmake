@@ -1,4 +1,4 @@
-# Install script for directory: /home/shakime/Desktop/CodeWorks/Design-patterns
+# Install script for directory: /home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

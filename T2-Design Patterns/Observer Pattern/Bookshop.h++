@@ -1,15 +1,12 @@
-//
-// Created by aldo on 28/3/20.
-//
 #ifndef DATOS_2___2_0_LIBRERIA_H
 #define DATOS_2___2_0_LIBRERIA_H
 #include <vector>
 #include <algorithm>
 #include <iostream>
 #include "Subject.h++"
-#include "producto.h++"
+#include "Product.h++"
 
-class libreria: public Subject{
+class Bookshop: public Subject{
     std::vector<Observer *> observers;
     int price;
 public:

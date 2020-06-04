@@ -22,16 +22,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/CheckCSourceCompiles.cmake"
-  "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/CheckIncludeFile.cmake"
-  "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/CheckLibraryExists.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/Compiler/GNU-C.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/Compiler/GNU.cmake"
-  "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake"
-  "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/FindPackageMessage.cmake"
-  "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/FindThreads.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/Platform/Linux-GNU-C.cmake"
   "/snap/clion/112/bin/cmake/linux/share/cmake-3.16/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -54,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Datos_2___2_0.dir/DependInfo.cmake"
+  "CMakeFiles/T2_Design_Patterns.dir/DependInfo.cmake"
   )

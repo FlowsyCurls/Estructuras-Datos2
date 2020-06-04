@@ -48,10 +48,10 @@ RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns
+CMAKE_SOURCE_DIR = "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles" "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shakime/Desktop/CodeWorks/Design-patterns/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,179 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Datos_2___2_0
+# Target rules for targets named T2_Design_Patterns
 
 # Build rule for target.
-Datos_2___2_0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Datos_2___2_0
-.PHONY : Datos_2___2_0
+T2_Design_Patterns: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 T2_Design_Patterns
+.PHONY : T2_Design_Patterns
 
 # fast build rule for target.
-Datos_2___2_0/fast:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/build
-.PHONY : Datos_2___2_0/fast
+T2_Design_Patterns/fast:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/build
+.PHONY : T2_Design_Patterns/fast
 
-mainVSPtr.o: mainVSPtr.cpp.o
+Adapter_Pattern/Adapter.o: Adapter_Pattern/Adapter.cpp.o
 
-.PHONY : mainVSPtr.o
+.PHONY : Adapter_Pattern/Adapter.o
 
 # target to build an object file
-mainVSPtr.cpp.o:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.o
-.PHONY : mainVSPtr.cpp.o
+Adapter_Pattern/Adapter.cpp.o:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Adapter.cpp.o
+.PHONY : Adapter_Pattern/Adapter.cpp.o
 
-mainVSPtr.i: mainVSPtr.cpp.i
+Adapter_Pattern/Adapter.i: Adapter_Pattern/Adapter.cpp.i
 
-.PHONY : mainVSPtr.i
+.PHONY : Adapter_Pattern/Adapter.i
 
 # target to preprocess a source file
-mainVSPtr.cpp.i:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.i
-.PHONY : mainVSPtr.cpp.i
+Adapter_Pattern/Adapter.cpp.i:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Adapter.cpp.i
+.PHONY : Adapter_Pattern/Adapter.cpp.i
 
-mainVSPtr.s: mainVSPtr.cpp.s
+Adapter_Pattern/Adapter.s: Adapter_Pattern/Adapter.cpp.s
 
-.PHONY : mainVSPtr.s
+.PHONY : Adapter_Pattern/Adapter.s
 
 # target to generate assembly for a file
-mainVSPtr.cpp.s:
-	$(MAKE) -f CMakeFiles/Datos_2___2_0.dir/build.make CMakeFiles/Datos_2___2_0.dir/mainVSPtr.cpp.s
-.PHONY : mainVSPtr.cpp.s
+Adapter_Pattern/Adapter.cpp.s:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Adapter.cpp.s
+.PHONY : Adapter_Pattern/Adapter.cpp.s
+
+Adapter_Pattern/Blender.o: Adapter_Pattern/Blender.cpp.o
+
+.PHONY : Adapter_Pattern/Blender.o
+
+# target to build an object file
+Adapter_Pattern/Blender.cpp.o:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Blender.cpp.o
+.PHONY : Adapter_Pattern/Blender.cpp.o
+
+Adapter_Pattern/Blender.i: Adapter_Pattern/Blender.cpp.i
+
+.PHONY : Adapter_Pattern/Blender.i
+
+# target to preprocess a source file
+Adapter_Pattern/Blender.cpp.i:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Blender.cpp.i
+.PHONY : Adapter_Pattern/Blender.cpp.i
+
+Adapter_Pattern/Blender.s: Adapter_Pattern/Blender.cpp.s
+
+.PHONY : Adapter_Pattern/Blender.s
+
+# target to generate assembly for a file
+Adapter_Pattern/Blender.cpp.s:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Blender.cpp.s
+.PHONY : Adapter_Pattern/Blender.cpp.s
+
+Adapter_Pattern/Socket.o: Adapter_Pattern/Socket.cpp.o
+
+.PHONY : Adapter_Pattern/Socket.o
+
+# target to build an object file
+Adapter_Pattern/Socket.cpp.o:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Socket.cpp.o
+.PHONY : Adapter_Pattern/Socket.cpp.o
+
+Adapter_Pattern/Socket.i: Adapter_Pattern/Socket.cpp.i
+
+.PHONY : Adapter_Pattern/Socket.i
+
+# target to preprocess a source file
+Adapter_Pattern/Socket.cpp.i:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Socket.cpp.i
+.PHONY : Adapter_Pattern/Socket.cpp.i
+
+Adapter_Pattern/Socket.s: Adapter_Pattern/Socket.cpp.s
+
+.PHONY : Adapter_Pattern/Socket.s
+
+# target to generate assembly for a file
+Adapter_Pattern/Socket.cpp.s:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Adapter_Pattern/Socket.cpp.s
+.PHONY : Adapter_Pattern/Socket.cpp.s
+
+Observer_Pattern/Bookshop.o: Observer_Pattern/Bookshop.cpp.o
+
+.PHONY : Observer_Pattern/Bookshop.o
+
+# target to build an object file
+Observer_Pattern/Bookshop.cpp.o:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Observer_Pattern/Bookshop.cpp.o
+.PHONY : Observer_Pattern/Bookshop.cpp.o
+
+Observer_Pattern/Bookshop.i: Observer_Pattern/Bookshop.cpp.i
+
+.PHONY : Observer_Pattern/Bookshop.i
+
+# target to preprocess a source file
+Observer_Pattern/Bookshop.cpp.i:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Observer_Pattern/Bookshop.cpp.i
+.PHONY : Observer_Pattern/Bookshop.cpp.i
+
+Observer_Pattern/Bookshop.s: Observer_Pattern/Bookshop.cpp.s
+
+.PHONY : Observer_Pattern/Bookshop.s
+
+# target to generate assembly for a file
+Observer_Pattern/Bookshop.cpp.s:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Observer_Pattern/Bookshop.cpp.s
+.PHONY : Observer_Pattern/Bookshop.cpp.s
+
+Observer_Pattern/Product.o: Observer_Pattern/Product.cpp.o
+
+.PHONY : Observer_Pattern/Product.o
+
+# target to build an object file
+Observer_Pattern/Product.cpp.o:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Observer_Pattern/Product.cpp.o
+.PHONY : Observer_Pattern/Product.cpp.o
+
+Observer_Pattern/Product.i: Observer_Pattern/Product.cpp.i
+
+.PHONY : Observer_Pattern/Product.i
+
+# target to preprocess a source file
+Observer_Pattern/Product.cpp.i:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Observer_Pattern/Product.cpp.i
+.PHONY : Observer_Pattern/Product.cpp.i
+
+Observer_Pattern/Product.s: Observer_Pattern/Product.cpp.s
+
+.PHONY : Observer_Pattern/Product.s
+
+# target to generate assembly for a file
+Observer_Pattern/Product.cpp.s:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/Observer_Pattern/Product.cpp.s
+.PHONY : Observer_Pattern/Product.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/T2_Design_Patterns.dir/build.make CMakeFiles/T2_Design_Patterns.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +293,25 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Datos_2___2_0"
-	@echo "... mainVSPtr.o"
-	@echo "... mainVSPtr.i"
-	@echo "... mainVSPtr.s"
+	@echo "... T2_Design_Patterns"
+	@echo "... Adapter_Pattern/Adapter.o"
+	@echo "... Adapter_Pattern/Adapter.i"
+	@echo "... Adapter_Pattern/Adapter.s"
+	@echo "... Adapter_Pattern/Blender.o"
+	@echo "... Adapter_Pattern/Blender.i"
+	@echo "... Adapter_Pattern/Blender.s"
+	@echo "... Adapter_Pattern/Socket.o"
+	@echo "... Adapter_Pattern/Socket.i"
+	@echo "... Adapter_Pattern/Socket.s"
+	@echo "... Observer_Pattern/Bookshop.o"
+	@echo "... Observer_Pattern/Bookshop.i"
+	@echo "... Observer_Pattern/Bookshop.s"
+	@echo "... Observer_Pattern/Product.o"
+	@echo "... Observer_Pattern/Product.i"
+	@echo "... Observer_Pattern/Product.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
