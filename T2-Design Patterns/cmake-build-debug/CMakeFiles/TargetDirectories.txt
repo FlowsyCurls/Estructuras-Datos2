@@ -1,3 +1,0 @@
-/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/shakime/Desktop/CodeWorks/Estructuras-Datos2/T2-Design Patterns/cmake-build-debug/CMakeFiles/T2_Design_Patterns.dir

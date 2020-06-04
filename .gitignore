@@ -41,5 +41,5 @@ hs_err_pid*
 cmake-build-debug/
 
 build
-Release
-Debug
+Release/
+Debug/
